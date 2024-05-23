@@ -1,0 +1,205 @@
+/* Application de la police Urbanist et configuration de base */
+
+#dexscreener-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 125%;
+}
+
+@media(min-width:1400px) {
+    #dexscreener-embed {
+        padding-bottom: 65%;
+    }
+}
+
+#dexscreener-embed iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    /* Ajustez selon la largeur désirée */
+}
+
+.content {
+    background:#f0d6c8;
+    /* Fond semi-transparent noir pour le contenu */
+    padding: 20px;
+    border-radius: 10px;
+    /* Bords arrondis pour le bloc de contenu */
+}
+
+h1 {
+    font-size: 36px;
+    /* Taille de la police pour le titre */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    /* Taille de la police pour le paragraphe */
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 30vw;
+    /* Ajustez selon la taille désirée pour l'image du token */
+    height: auto;
+}
+
+.separate {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+    background-color: #222831;
+    color: white;
+}
+
+.navbar {
+    background-color: #333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* Assurez-vous que ceci est défini */
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-bar1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-bar li {
+    margin: 0 10px;
+}
+
+.social-bar a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Espace entre l'icône et le texte */
+}
+
+.social-bar svg {
+    fill: white;
+    /* Couleur des icônes SVG */
+    width: 24px;
+    height: 24px;
+}
+
+.video {
+    text-align: center;
+    /* Centre le contenu du div */
+    width: 100%;
+    /* Prend la largeur totale du conteneur parent */
+    margin: 20px 0;
+    /* Ajoute de l'espace autour du div pour une meilleure présentation */
+}
+
+.video iframe {
+    width: 80%!important;
+    /* La vidéo prend 80% de la largeur du div .video */
+    height: 45vw!important;
+    /* Hauteur dynamique basée sur la largeur de l'écran */
+    max-height: 450px!important;
+    /* Hauteur maximale pour éviter que la vidéo ne devienne trop grande sur de larges écrans */
+}
+
+#home {
+    width: 100%;
+    display: contents!important;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 8px;
+}
+
+.footer p,
+.footer a {
+    color: white;
+    font-size: 8px;
+}
+
+.social-bar1 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 30%; 
+  margin: 0 auto; 
+}
+
+.social-bar1 ul {
+  list-style: none; 
+  padding: 0; 
+   display: flex;
+    flex-direction: row;
+}
+
+.social-bar1 li {
+  display: flex; 
+  align-items: center; 
+  margin:0 20px 0 20px;
+}
+
+.social-bar1 a {
+  display: flex; 
+  align-items: center; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.social-bar1 svg {
+  width: 20px;
+  height: 20px; 
+  margin-right: 10px; 
+}
